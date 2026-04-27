@@ -56,7 +56,7 @@ title('Mesh: f(x,y) = (1+V(x))(1+V(y))'); %[output:0749f798]
 xlabel('x'); %[output:0749f798]
 ylabel('y'); %[output:0749f798]
 zlabel('f(x,y)'); %[output:0749f798]
-view([-45 45]); %[output:0749f798]
+% view([0, 0]); %[output:0749f798]
 
 % Contour
 figure; %[output:90567e5e]
@@ -67,7 +67,7 @@ title('Contour: f(x,y) = (1+V(x))(1+V(y))'); %[output:90567e5e]
 xlabel('x'); %[output:90567e5e]
 ylabel('y'); %[output:90567e5e]
 zlabel('f(x,y)'); %[output:90567e5e]
-view([-45 45]); %[output:90567e5e]
+view(2); %[output:90567e5e]
 
 % Meshc
 figure; %[output:934ea590]
@@ -78,7 +78,7 @@ title('Meshc: f(x,y) = (1+V(x))(1+V(y))'); %[output:934ea590]
 xlabel('x'); %[output:934ea590]
 ylabel('y'); %[output:934ea590]
 zlabel('f(x,y)'); %[output:934ea590]
-view([-45 45]); %[output:934ea590]
+view([-60 45]); %[output:934ea590]
 
 %[appendix]{"version":"1.0"}
 %---
